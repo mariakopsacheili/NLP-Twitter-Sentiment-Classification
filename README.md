@@ -75,9 +75,10 @@ Here we have two methods, lemmatization and stemming. Their goal is to reduce wo
 | Model                  | Accuracy                              |
 |------------------------|--------------------------------------|
 | Logistic Regression    | 0.48 |
-| Random Forest          |  0.46 (very slow)|
+| Random Forest          |  0.46 (slow)|
 | Multinomial Naive Bayes| 0.35                    |
 | Linear SVM             | 0.47
+| Rbf SVM                | 0.52 (took 19 minutes -- very slow)
 
 ---
 
