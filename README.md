@@ -70,7 +70,12 @@ Here we have two methods, lemmatization and stemming. Their goal is to reduce wo
 2. **Train-Test-X-y Split** 
 3. **TF-IDF Vectorizer**
     - Algorithms do not understand words so we need to transform our text into a numeric representation.
-    - `TfidfVectorizer` tokenizes the text into words, builds a vocabulary, calculates how often a word appears in that document (term frequency - TF) for each word in each document, computes how rare a word appears in that document (inverse document frequency - IDF) across all documents and returns a numerical matrix of TF-IDF scores representing word importance.
+    - `TfidfVectorizer` :
+      - tokenizes the text into words,
+      - builds a vocabulary,
+      - calculates how often a word appears in that document (term frequency - TF) for each word in each document,
+      - computes how rare a word appears in that document (inverse document frequency - IDF) across all documents and
+      - returns a numerical matrix of TF-IDF scores representing word importance.
 
 4. **Models used**:
 
