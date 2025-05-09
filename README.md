@@ -52,7 +52,7 @@ Here we have two methods, lemmatization and stemming. Their goal is to reduce wo
     - Keeps the sentence semantically intact
 
     Stemmers are more aggresive and thus lemmatizers are prefered.
-4. **POS Tagging**: 
+4. **POS Tagging and Tokenization**: 
     - Lemmatizers need to know the role of a word in a sentence to convert it to the correct base form.
 
     - POS tagging tells the lemmatizer the correct "type" of word, so it can choose the right lemma.
